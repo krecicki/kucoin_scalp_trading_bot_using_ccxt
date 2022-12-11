@@ -1,6 +1,8 @@
 # kucoin_scalp_trading_bot_using_ccxt
 This python script automatically buys and sells orders and checks any open orders before making another order. You can set the premium you want to take from each trade and I purposely. Feel free to add to it. It includes code to use it on the sandbox or live.
 
+**This script uses a single file called v6script.py
+
 Creator: Cody Krecicki https://instagram.com/ckrecicki
 
 To use this script, you need to first have the ccxt library installed. To do this, you can use the following command:
@@ -76,12 +78,20 @@ Furthermore, the API keys and other sensitive information used in this script ar
 
 In summary, to use this script, you need to:
 
-Install the ccxt library using the pip install ccxt command.
-Import the ccxt library and the sleep function from the time module in your Python file.
-Instantiate the Exchange class using the getattr function and the name of the exchange you want to use.
-Set the sandbox mode to True or False using the set_sandbox_mode method.
-Set your API keys using the apiKey, secret, and password properties.
-Set the symbol you want to trade on the exchange.
-Set the amount of BTC you want to trade.
-Enter an infinite loop and continuously trade on the exchange by placing buy and sell orders at the midpoint price.
-Save the script as a Python file and run it using the python script.py command.
+1) Install the ccxt library using the pip install ccxt command.
+
+2) Import the ccxt library and the sleep function from the time module in your Python file.
+
+3) Instantiate the Exchange class using the getattr function and the name of the exchange you want to use.
+
+4) Set the sandbox mode to True or False using the set_sandbox_mode method.
+
+5) Set your API keys using the apiKey, secret, and password properties.
+
+6) Set the symbol you want to trade on the exchange.
+
+7) Set the amount of BTC you want to trade.
+
+8) Enter an infinite loop and continuously trade on the exchange by placing buy and sell orders at the midpoint price.
+
+9) Save the script as a Python file and run it using the python3 v6script.py command.
